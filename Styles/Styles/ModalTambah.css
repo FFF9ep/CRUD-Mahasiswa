@@ -1,0 +1,61 @@
+.modalTambah {
+  position: absolute;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+  top: 10%;
+  min-width: 800px;
+}
+
+.modalTambah .header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalTambah .header button {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: #ec2222;
+  cursor: pointer;
+}
+
+.modalTambah form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.modalTambah form div {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalTambah form input {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.modalTambah form button {
+  margin-top: 10px;
+  padding: 10px;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: #2acc2a;
+  cursor: pointer;
+}
